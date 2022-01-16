@@ -1,0 +1,19 @@
+.box {
+  height: 7vh;
+  background: #003566;
+  padding-left: 80px;
+  font-family: sans-serif;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+.line {
+  height: 1vh;
+  background: #f4a261;
+}
+@media (max-width: 400px) {
+  .box {
+    padding-left: 20px;
+    font-size: 14px;
+  }
+}
